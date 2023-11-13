@@ -1,0 +1,93 @@
+/*в правилі для body нічого змінювати НЕ потрібно*/
+body{
+	margin:20px auto;
+	padding:0;
+	width: 80%;
+	min-height: 500px;
+	box-shadow: 2px 2px 5px grey;
+	font-family: Arial;
+	
+}
+
+/*в цьому правилі нічого не потрібно змінювати*/
+.slogan{
+	font-size: 20px;
+	text-align: center; 
+}  
+table{  
+border-collapse:collapse; 
+margin:0px auto 50px auto; 
+border:2px solid grey; 
+} 
+.table-2{ 
+display:table; 
+text-align:center; 
+margin:auto;
+}
+/*в цьому правилі нічого не потрібно змінювати*/
+.footer{
+	background:#0e2b3c;
+	height: 30px;
+	color:white;
+	text-align: center;
+	font-size: 0.5em;
+}
+
+
+/*тут бажано додати одну властивість,  
+яка змінює режим розрахунку загальних розмірів*/ 
+.header{
+	width: 100%;
+	height: 50px;
+	background: #a6dbfb;
+	padding:5px;
+	color:#0e2b3c;
+	
+} 
+td,th{ 
+padding:5px; 
+width:120px; 
+border:2px solid grey;
+text-align:center;
+}
+.table-2{
+	display:table; 
+	text-align:center;
+	margin:auto;
+}
+.td{
+display:table-cell;
+border-bottom:2px solid orange;
+width:120px;	
+}
+.th{
+font-weight:bold;
+}
+tr:nth-child(3) td:nth-child(2),tr:nth-child(4) td:nth-child(2),tr:nth-child(5) td:nth-child(2){ 
+background-color:yellow; 
+}
+tr:nth-child(3) td:nth-child(3),tr:nth-child(5) td:nth-child(3),tr:nth-child(4) td:nth-child(3){ 
+background-color:orange; 
+} 
+tr:nth-child(3) td:nth-child(4),tr:nth-child(4) td:nth-child(4),tr:nth-child(5) td:nth-child(4){ 
+background-color:red; 
+} 
+/*зображенням потрібно додати по одній властивості*/
+.oreo-logo{
+	height: 40px; 
+	
+}
+
+.oreo-cookie{
+	height: 40px; 
+	margin-left:1355px; 
+}
+.main{
+	min-height: 410px;
+	background: #deebf4;  	
+}
+
+
+
+
+
