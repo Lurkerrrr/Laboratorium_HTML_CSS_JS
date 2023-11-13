@@ -1,4 +1,4 @@
-# LaboratoriumHTML-CSS-JS 
+# Laboratorium_HTML_CSS_JS 
 
 w68166_ 
 LABORATORIUM_Programowanie_ 
