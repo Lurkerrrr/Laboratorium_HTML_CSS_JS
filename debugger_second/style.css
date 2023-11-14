@@ -1,0 +1,298 @@
+html, body{ 
+width: 100%; 
+height: 100%; 
+margin: 0;
+} 
+header{ 
+background:url("billboard.jpg"); 
+background-size: cover;
+background-repeat:no-repeat; 
+margin:auto;
+width:680px; 
+height:300px; 
+display:block;
+}  
+h2{ 
+position: relative; 
+left:750px; 
+top:-255px;
+font-family: Arial; 
+font-size: 25px; 
+color:grey;
+} 
+h3{ 
+position: relative; 
+left:1020px; 
+top:-700px; 
+font-size: 25px; 
+font-family: Arial; 
+color:grey;
+} 
+h5{ 
+position: relative; 
+left:770px; 
+top:-275px;
+color:grey;
+} 
+h6{
+position: relative; 
+left:1030px; 
+top:-720px;
+color:grey;
+} 
+.table{ 
+display:inline-block; 
+border-collapse:collapse;
+} 
+.content{ 
+max-width: 680px; 
+padding: 1px; 
+padding-left: 15px; 
+padding-right: 15px; 
+margin: 0 auto; 
+position: relative;
+}   
+.content_text2{ 
+position: relative; 
+left: 260px; 
+top:-218px;
+}
+.content_text3{
+position: relative; 
+left: 530px; 
+top:-443px;
+} 
+.undertext1{ 
+position: relative; 
+left: 1px; 
+top:3px;
+}  
+.undertext2{ 
+position: relative; 
+left: 260px; 
+top:-220px;
+}
+.undertext3{ 
+position: relative; 
+left: 530px; 
+top:-443px;
+}  
+.clock1{ 
+margin-left: 50px;
+ } 
+.menu{ 
+display:inline-block; 
+padding-left: 10px;
+margin-left:350px; 
+color:grey; 
+font-size: 11px;
+} 
+.menu>li{ 
+display:inline-block; 
+padding-left: 10px;
+margin-left:5px;
+}
+.menu1{ 
+display:inline-block; 
+padding-left: 10px;
+margin-left:200px; 
+color: white; 
+font-size: 11px;
+} 
+.menu1>li{ 
+display:inline-block; 
+padding-left: 10px;
+margin-left:5px;
+}
+.brand{ 
+position: relative; 
+top:-600px;              
+margin: 100px; 
+margin-left: 660px; 
+}
+.picture1{ 
+margin:0px auto; 
+margin-left: 280px;  
+margin-right:300px;
+}                          
+.picture5{ 
+display: inline-block; 
+margin-left: 10px;
+} 
+.picture6{ 
+border-radius: 40px;
+position: relative; 
+left: 800px; 
+top:-240px; 
+} 
+.picture7{ 
+border-radius: 40px;
+position: relative; 
+left: 1050px; 
+top:-685px;
+} 
+.picture8{ 
+width: 170px; 
+height: 150px; 
+position: relative; 
+left: 660px; 
+top:-550px; 
+box-shadow: 4px 0px 4px grey;
+} 
+.picture9{ 
+width: 170px; 
+height: 150px;
+position: relative; 
+left: 485px; 
+top:-370px; 
+box-shadow: 4px 0px 4px grey;
+} 
+.text_header1{ 
+color:white; 
+margin-left:10px;
+}
+.text_header3{ 
+font-size:20px; 
+color:grey;
+}
+.img_header{ 
+padding-top:85px;
+text-align:center; 
+margin: 5px; 
+} 
+.Bella{ 
+margin-left:5px; 
+margin-right: 10px; 
+font-size: 40px;
+} 
+.button_underheader{ 
+width:150px; 
+height: 25px; 
+background:red; 
+border-radius:40px; 
+margin-left:260px;
+}  
+.text_header3{ 
+font-size: 30px; 
+margin-right: 10px; 
+}
+.fword1{ 
+color: white; 
+padding-left: 320px; 
+padding-top: 40px;
+} 
+.copyright{ 
+color:white;
+position:relative;
+font-size:11px;
+top:5px;
+right:-215px;
+} 
+.staff1{ 
+height:600px;
+width:340px;
+background-color:#D3D3D3;
+transition:background 1s ease-out;
+margin-top:100px;
+border:3px solid white; 
+} 
+.staff2{  
+position: relative; 
+left: 250px;
+height:600px;
+width:340px;
+background-color:#D3D3D3;
+transition:background 1s ease-out;
+margin-top:100px;
+border:3px solid white;
+} 
+.t1{ 
+position: relative; 
+left: 700px; 
+top:-330px;
+width: 250px; 
+font-size: 15px; 
+} 
+.t2{  
+position: relative; 
+left: 955px; 
+top:-775px; 
+width: 250px; 
+font-size: 15px; 
+} 
+.text1{  
+background-color: #E4E4E4  
+}
+.word1{ 
+text-align: left; 
+position: relative; 
+left:860px; 
+top:-700px; 
+color:grey; 
+font-family: Arial; 
+font-size: 20px;
+} 
+.word1_1{ 
+text-align: left; 
+position: relative; 
+left:860px; 
+top:-690px; 
+font-size: 10px; 
+font-family: Arial; 
+} 
+.word2{ 
+text-align: left; 
+position: relative; 
+left:860px; 
+top:-600px; 
+color:grey; 
+font-family: Arial; 
+font-size: 20px;
+}
+.word2_2{ 
+text-align: left; 
+position: relative; 
+left:860px; 
+top:-590px; 
+font-size: 10px; 
+font-family: Arial;
+} 
+.end{ 
+position: relative; 
+left:610px; 
+top:-370px;
+height:150px;
+margin-top:80px; 
+} 
+.word3{
+padding-left:110px;
+opacity:0.6;
+}
+.word4{
+padding-left:200px;
+opacity:0.6; 
+} 
+.word5{
+padding-left:23px;
+padding-top:10px;
+} 
+.button{
+width:150px;
+height:25px;
+position:relative;
+left:270px;
+top:25px;
+background-color:#D84C4C; 
+color:white;
+} 
+footer{  
+width: 680px; 
+padding: 1px; 
+padding-left: 15px; 
+padding-right: 15px; 
+margin: 0 auto; 
+position: relative; 
+background:#1C1C1C; 
+height: 150px; 
+top:-340px; 
+}
