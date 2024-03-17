@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #666;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        aside {
+            float: right;
+            width: 30%;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+
+        article {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>About me</h1>
+    </header>
+    <nav>
+        <a href="#wyksztalcenie">Wykształcenie</a> |
+        <a href="#zainteresowania">Zainteresowania</a> |
+        <a href="#ulubione">Ulubione</a>
+    </nav>
+    <section id="wyksztalcenie">
+        <h2>Wykształcenie</h2>
+        <table>
+            <tr>
+                <th>Okres</th>
+                <th>Uczelnia / Szkoła</th>
+            </tr>
+            <tr>
+                <td>2022 - obecnie</td>
+                <td>WSIiZ, Informatyka - Programowanie</td>
+            </tr>
+            <tr>
+                <td>2011 - 2022</td>
+                <td>Szkola srednia nr 13</td>
+            </tr>
+            <tr>
+                <td>2011 - 2015</td>
+                <td>Szkola Podstawowa nr 13</td>
+            </tr>
+        </table>
+    </section>
+    <aside>
+        <h3>About me</h3>
+        <p>Mam 18 lat, interesuję się wyścigami samochodowymi, Formułą 1, programowaniem komputerowym, nowinkami
+            technicznymi i grami komputerowymi. Lubię też oglądać filmy/seriale</p>
+        <img src="https://store.playstation.com/store/api/chihiro/00_09_000/container/PL/pl/99/EP5823-CUSA16329_00-AV00000000000004/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=150&h=150"
+            alt="Error">
+    </aside>
+    <article id="zainteresowania">
+        <h2>Zainteresowania</h2>
+        <ul>
+            <li><a href="#">Racing</a></li>
+            <li><a href="#">Programming</a></li>
+            <li><a href="#">Video games</a></li>
+        </ul>
+    </article>
+    <article id="ulubione">
+        <h2>Ulubione gry komputerowe</h2>
+        <ol>
+            <li><a href="https://www.ign.com/games/grand-theft-auto-v">Grand Theft Auto 5</a></li>
+            <li><a href="https://www.ign.com/games/assassins-creed">Assassin's Creed</a></li>
+            <li><a href="https://www.ign.com/articles/2016/03/17/the-division-review">Tom Clancy's The Division</a></li>
+        </ol>
+    </article>
+    <article id="ulubione">
+        <h2>Ulubione serialy/filmy</h2>
+        <ol>
+            <li><a href="https://www.imdb.com/title/tt0141842/reviews/?ref_=tt_ql_2">The Soprano</a></li>
+            <li><a href="https://www.imdb.com/title/tt3032476/reviews/?ref_=tt_ql_2">Better Call Saul</a></li>
+            <li><a href="https://www.imdb.com/title/tt0903747/reviews/?ref_=tt_ql_2">Breaking Bad</a></li>
+            <li><a href="https://www.imdb.com/title/tt0075314/reviews">Taxi Driver</a></li>
+        </ol>
+    </article>
+    <section>
+        <h2>Podstrony zwiazane z:</h2>
+        <ol>
+            <li><a href="favourite_series.html"><i>Ulubione seriale</i></a></li>
+            <li><a href="favourite_books.html"><i>Ulubione ksiazki</i></a></li>
+        </ol>
+    </section>
+    <section>
+        <h2>Your news form</h2>
+        <form action="" method="get">
+            <label for="name">Name:</label><input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><input type="text" id="email" name="email"><br>
+            <label for="news_receive">Do you want to get news daily?</label><input type="checkbox" id="news_receive"
+                name="news"><br>
+            <label for="discount">Do you want to get 10% discount?</label><input type="radio" id="discount"
+                name="discount"><br>
+            <input type="submit" value="Subscribe">
+        </form>
+    </section>
+    <footer>
+        <p>Strona stworzona przez Viktor Pylypenko.</p>
+    </footer>
+</body>
+
+</html>
