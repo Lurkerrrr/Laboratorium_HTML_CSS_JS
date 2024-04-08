@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter';
+}
+
+header {
+    position: sticky;
+    width: 100%;
+    margin-inline: 20px 120px;
+    background-color: lightgray;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px 2px #aaa;
+    z-index: 100;
+}
+
+h3 {
+    width: 18%;
+    margin-top: 745px;
+    margin-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-line: solid, #48E54F;
+}
+
+footer {
+    background-color: lightgray;
+}
+
+h1 {
+    position: relative;
+    left: -395px;
+    color: #4C98F9;
+}
+
+.text_1 {
+    margin-top: 270px;
+    margin-left: 330px;
+    color: #073bf4;
+    width: 20%;
+    font-size: 35px;
+}
+
+.text_2 {
+    margin-top: -41px;
+    margin-left: 607px;
+    font-size: 35px;
+}
+
+h4 {
+    margin-bottom: -100px;
+    margin-left: 645px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main_page {
+    font-size: 20px;
+    position: relative;
+    left: 295px;
+    top: 32px;
+    color: #48E54F;
+}
+
+.favourite_series {
+    font-size: 20px;
+    position: relative;
+    left: 315px;
+    top: 32px;
+    color: #000000;
+}
+
+.favourite_books {
+    font-size: 20px;
+    position: relative;
+    left: 339px;
+    top: 32px;
+    color: #000000;
+}
+
+.image_edit {
+    position: relative;
+    margin-left: 900px;
+    margin-top: -230px;
+    width: 650px;
+    height: 650px;
+    border-radius: 8px;
+}
