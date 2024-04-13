@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter';
+    background-size: cover;
+}
+
+header {
+    position: sticky;
+    width: 100%;
+    margin-inline: 20px 120px;
+    background-color: lightgray;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px 2px #aaa;
+    z-index: 100;
+}
+
+footer {
+    background-color: #aaa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+h1 {
+    position: relative;
+    left: -365px;
+    color: #4C98F9;
+}
+
+h3 {
+    width: 8%;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+
+}
+
+.main_page {
+    font-size: 20px;
+    position: relative;
+    left: 295px;
+    top: 32px;
+    color: #48E54F;
+
+}
+
+.favourite_series {
+    font-size: 20px;
+    position: relative;
+    left: 315px;
+    top: 32px;
+    color: #000000;
+
+}
+
+.favourite_books {
+    font-size: 20px;
+    position: relative;
+    left: 339px;
+    top: 32px;
+    color: #000000;
+
+}
