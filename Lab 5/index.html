@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>LAB 5___JS tablice i JSON</title>
+</head>
+
+<body>
+    <h1>Tabliczka mnożenia</h1>
+    <table border="1">
+        <tbody>
+            <script>
+                for (let i = 1; i <= 10; i++) {
+                    document.write("<tr>");
+                    for (let j = 1; j <= 10; j++) {
+                        document.write("<td>" + i * j + "</td>");
+                    }
+                    document.write("</tr>");
+                }
+            </script>
+        </tbody>
+    </table>
+    <ul>
+        <script>
+            function losowaLiczba(min, max) {
+                return Math.floor(Math.random() * (max - min + 1)) + min;
+            }
+
+            const imiona = ["Jan", "Anna", "Piotr", "Maria", "Andrzej", "Katarzyna", "Michał", "Małgorzata", "Krzysztof", "Agnieszka"];
+            const nazwiska = ["Nowak", "Kowalski", "Wiśniewski", "Wójcik", "Kowalczyk", "Kamińska", "Lewandowski", "Zielińska", "Szymański", "Woźniak"];
+            const daneOsobowe = [];
+
+            let iloscRekordow = parseInt(prompt("Podaj ilość rekordów do wygenerowania: "));
+
+            for (let i = 0; i < iloscRekordow; i++) {
+                let imie = imiona[Math.floor(Math.random() * imiona.length)];
+                let nazwisko = nazwiska[Math.floor(Math.random() * nazwiska.length)];
+                let wiek = losowaLiczba(18, 80);
+                let telefon = losowaLiczba(5000000, 8000000);
+                let osoba = {
+                    name: imie,
+                    surname: nazwisko,
+                    age: wiek,
+                    phone: telefon
+                };
+                daneOsobowe.push(osoba);
+            }
+
+            daneOsobowe.forEach(osoba => {
+                document.write("<li>" + JSON.stringify(osoba) + "</li>");
+            });
+        </script>
+    </ul>
+</body>
+
+</html>
