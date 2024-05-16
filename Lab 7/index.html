@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <form id="myForm">
+        <div>
+            <label for="firstName">Imię:</label>
+            <input type="text" id="firstName" name="firstName" required>
+            <span class="error" id="firstNameError"></span>
+        </div>
+        <div>
+            <label for="lastName">Nazwisko:</label>
+            <input type="text" id="lastName" name="lastName" required>
+            <span class="error" id="lastNameError"></span>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error" id="emailError"></span>
+        </div>
+        <div>
+            <label for="password">Hasło:</label>
+            <input type="password" id="password" name="password" minlength="8" required>
+            <span class="error" id="passwordError"></span>
+        </div>
+        <div>
+            <label for="gender">Płeć:</label>
+            <select id="gender" name="gender" required>
+                <option value=""></option>
+                <option value="male">Mężczyzna</option>
+                <option value="female">Kobieta</option>
+                <option value="other">Inna</option>
+            </select>
+            <span class="error" id="genderError"></span>
+        </div>
+        <div>
+            <label for="phone">Telefon:</label>
+            <input type="text" id="phone" name="phone" required>
+            <span class="error" id="phoneError"></span>
+        </div>
+        <div>
+            <label for="birthdate">Data Urodzenia:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+            <span class="error" id="birthdateError"></span>
+        </div>
+        <div>
+            <label for="country">Kraj:</label>
+            <select id="country" name="country" required>
+                <option value=""></option>
+                <option value="Poland">Polska</option>
+                <option value="other">Inny</option>
+            </select>
+            <span class="error" id="countryError"></span>
+        </div>
+        <div>
+            <label for="province">Województwo:</label>
+            <input type="text" id="province" name="province" disabled>
+            <span class="error" id="provinceError"></span>
+        </div>
+        <div>
+            <label for="address">Adres zamieszkania:</label>
+            <input type="text" id="address" name="address" disabled>
+            <span class="error" id="addressError"></span>
+        </div>
+        <div>
+            <input type="checkbox" id="sameAddress">
+            <label for="sameAddress">Adres korespondencyjny taki sam jak adres zamieszkania</label>
+        </div>
+        <div id="correspondenceAddress" style="display: none;">
+            <label for="correspondence">Adres korespondencyjny:</label>
+            <input type="text" id="correspondence" name="correspondence">
+            <span class="error" id="correspondenceError"></span>
+        </div>
+        <div>
+            <label for="confirmPassword">Powtórz Hasło:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" minlength="8" required>
+            <span class="error" id="confirmPasswordError"></span>
+        </div>
+        <button type="submit">Zapisz</button>
+    </form>
+
+    <div id="errorMessages"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
