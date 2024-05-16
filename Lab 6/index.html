@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>LAB 6___Klasy i Obiekty</title>
+</head>
+
+<body>
+    <h1>Prostokąt</h1>
+    <label for="dlugosc">Długość:</label>
+    <input type="number" id="dlugosc"><br>
+    <label for="szerokosc">Szerokość:</label>
+    <input type="number" id="szerokosc"><br>
+    <button onclick="utworzProstokat()">Utwórz prostokąt</button><br><br>
+
+    <script>
+        function Prostokat(dlugosc, szerokosc) {
+            this.dlugosc = dlugosc;
+            this.szerokosc = szerokosc;
+
+            this.obliczPole = function () {
+                return this.dlugosc * this.szerokosc;
+            }
+
+            this.obliczObwod = function () {
+                return 2 * (this.dlugosc + this.szerokosc);
+            }
+
+            this.czyKwadrat = function () {
+                return this.dlugosc === this.szerokosc;
+            }
+        }
+
+        function utworzProstokat() {
+            let dlugosc = parseInt(document.getElementById("dlugosc").value);
+            let szerokosc = parseInt(document.getElementById("szerokosc").value);
+
+            let prostokat = new Prostokat(dlugosc, szerokosc);
+
+            console.log("Pole prostokąta: " + prostokat.obliczPole());
+            console.log("Obwód prostokąta: " + prostokat.obliczObwod());
+            console.log("Czy prostokąt jest kwadratem? " + (prostokat.czyKwadrat() ? "Tak" : "Nie"));
+        }
+    </script>
+
+
+</body>
+
+</html>
