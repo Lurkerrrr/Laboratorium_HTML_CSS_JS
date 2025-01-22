@@ -1,3 +1,1 @@
-# Laboratorium_HTML_CSS_JS 
-
-Programowanie_Pylypenko_Viktor_w68166
+2IID-P/2023-SL03 w68166
